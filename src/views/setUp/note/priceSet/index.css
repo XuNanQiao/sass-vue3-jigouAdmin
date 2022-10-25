@@ -1,0 +1,91 @@
+.notemo {
+  width: 100%;
+  min-height: 210px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.dtop {
+  width: 100%;
+  height: 68px;
+  background: #ffffff;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 1;
+}
+.addnote {
+  width: 104px;
+  height: 28px;
+  background: #1890ff;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  margin: 20px;
+}
+.boxs {
+  width: 23%;
+  height: 304px;
+  background: #ffffff;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 1;
+  margin-right: 20px;
+  margin-top: 32px;
+}
+.boxs .box_timg {
+  width: 100%;
+  height: 60px;
+  background-image: url('/@/assets/materialimg/Group 2295.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px 8px 0px 0px;
+  opacity: 1;
+}
+.mainbox {
+  background: #f2f2f6;
+}
+.msglist {
+  display: flex;
+  flex-direction: column;
+}
+.msglist > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.msglist > div > span:nth-child(1) {
+  margin-left: 24px;
+}
+.msglist > div > span:nth-child(2) {
+  margin-right: 24px;
+}
+.msglist div:nth-child(4) {
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 80%;
+  height: 36px;
+  background: #e3f1ff;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 1;
+  font-size: 14px;
+  font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+  font-weight: 400;
+  color: #1890ff;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+.clears {
+  width: 50%;
+}
+.clears div {
+  margin-top: 0;
+}
+.el-radio-group {
+  width: 100%;
+  display: flex !important;
+  justify-content: flex-end;
+  flex-wrap: nowrap !important;
+}
+.el-radio-group .el-radio {
+  width: 20%;
+}

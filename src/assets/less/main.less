@@ -1,0 +1,89 @@
+/* 表格图片和名称 */
+.tabNameImg {
+  display: flex;
+
+  .rowImg {
+    width: 100px;
+    height: 70px;
+    flex-shrink: 0;
+  }
+
+  .text {
+    text-align: left;
+    margin-left: 10px;
+
+    p {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .price {
+      border: 1px solid red;
+      padding: 0px 2px;
+      display: inline-block;
+    }
+  }
+}
+
+/* 文件上传 */
+.uploadCard {
+  width: 104px;
+  height: 104px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadBut {
+  margin-left: 8px;
+
+  .ant-btn {
+    margin: 0px auto;
+    display: block;
+  }
+
+  .uploadTips {
+    font-size: 12px;
+    font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+    font-weight: 400;
+    color: #999999;
+    line-height: 12px;
+    margin-top: 8px;
+  }
+}
+
+/* ===================flex============================================================= */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shrink {
+  flex-shrink: 0;
+}
+
+/* ===================margin============================================================= */
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mt-8 {
+  margin-left: 8px;
+}

@@ -1,0 +1,17 @@
+###
+ # @Author: 南桥几许
+ # @Date: 2022-06-17 10:25:26
+ # @LastEditTime: 2022-06-21 09:04:00
+ # @LastEditors: 南桥几许
+ # @Description: 
+ # @FilePath: \organization\.husky\pre-commit
+ # 
+### 
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+. "$(dirname "$0")/common.sh"
+
+[ -n "$CI" ] && exit 0
+
+# 根据lintstagedrc格式化并提交代码。js配置
+npm run lint:lint-staged
